@@ -94,7 +94,7 @@ print(conf_matrix)
 # Calculate accuracy
 print(paste("Accuracy:", round(conf_matrix$overall['Accuracy']*100, 2), "%"))
 
-# calculate Prediction
+# calculate Precision
 precision <- conf_matrix$byClass['Pos Pred Value']
 print(paste("Precision:", round(precision*100, 2), "%"))
 
