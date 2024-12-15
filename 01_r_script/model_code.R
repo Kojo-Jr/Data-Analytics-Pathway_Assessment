@@ -1,5 +1,3 @@
-# set working directory
-# setwd("./data-science-projects/Data-Analysis-on-Bank-Data/")
 
 # import data 
 data <- read.csv("./00_raw_data/bank.csv", sep = ";")
